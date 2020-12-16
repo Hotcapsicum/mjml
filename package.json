@@ -28,5 +28,9 @@
     "open": "^7.3.0",
     "prettier": "^2.0.5",
     "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.6",
+    "mjml": "^4.7.1"
   }
 }
