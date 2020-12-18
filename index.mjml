@@ -28,8 +28,9 @@
           <mj-text mj-class="title">welcome to dmd emails</mj-text>
           <mj-spacer height="10px" />
           <mj-text>Dear [username]：</mj-text>
-          <mj-text>Thank you for the registration, you are welcomed to be our first tier users. Please click the link to activate your account:</mj-text>
-          <mj-button href="http://baidu.com"> Activate </mj-button>
+          <mj-text>Thank you for the registration, you are welcomed to be our first tier users.</mj-text> 
+          <mj-text>Please click the link to activate your account:</mj-text>
+          <mj-button href="http://baidu.com" background-color="#e8313e"> Activate </mj-button>
         </mj-column>
       </mj-section>
       <mj-section>
