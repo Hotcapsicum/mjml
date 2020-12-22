@@ -8,7 +8,7 @@
             <!-- 针对所有元素 -->
             <mj-all font-family="Arial" />
             <!-- 2、定义 class 样式 -->
-            <mj-class name="title" font-size="14px" align="center" />
+            <mj-class name="title" font-size="14px" align="center" color="#a25e5e"/>
         </mj-attributes>
     </mj-head>
     <mj-body>
@@ -16,8 +16,11 @@
             <mj-column>
                 <mj-text mj-class="title">
                 <a href="https://cem.marketingdesk.cn">
-                    <img alt="dmd" width="600px" src="https://static4.marketingdesk.cn/static/email-img.png"/>
+                    <img alt="dmd" src="https://static4.marketingdesk.cn/static/email-img.png"/>
                 </a>
+                </mj-text>
+                <mj-text mj-class="title">
+                    <a href="http://wpa.qq.com/msgrd?v=3&uin=1745542711&site=qq&menu=yes" target="_blank">如有疑问，欢迎联系QQ客服</a>
                 </mj-text>
             </mj-column>
         </mj-section>

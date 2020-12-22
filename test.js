@@ -20,7 +20,7 @@ const xml = `
             <mj-section>
                 <mj-column>
                     <mj-text>
-                        lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
+                        简简单单发个邮件
                     </mj-text>
                 </mj-column>
             </mj-section>
