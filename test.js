@@ -20,7 +20,7 @@ const xml = `
             <mj-section>
                 <mj-column>
                     <mj-text>
-                        lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
+                        简简单单发个邮件
                     </mj-text>
                 </mj-column>
             </mj-section>
@@ -29,14 +29,14 @@ const xml = `
 </mjml>
 `
 
-console.time('mjml2html')
+// console.time('mjml2html')
 
 const { html } = mjml2html(xml, {
   beautify: true,
   filePath: './test.mjml',
 })
 
-console.timeEnd('mjml2html')
+// console.timeEnd('mjml2html')
 
 if (process.argv.includes('--output')) {
   console.log(html)

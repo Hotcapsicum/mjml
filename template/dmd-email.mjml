@@ -1,0 +1,29 @@
+<mjml>
+    <mj-head>
+        <mj-title>marketindDesk</mj-title>
+        <mj-attributes>
+            <!-- 1、定义 global 样式 -->
+            <!-- 针对某个元素 -->
+            <!-- <mj-text line-height="160%" /> -->
+            <!-- 针对所有元素 -->
+            <mj-all font-family="Arial" />
+            <!-- 2、定义 class 样式 -->
+            <mj-class name="title" font-size="14px" align="center" color="#a25e5e"/>
+        </mj-attributes>
+    </mj-head>
+    <mj-body>
+        <mj-section >
+            <mj-column>
+                <mj-text mj-class="title">
+                <a href="https://cem.marketingdesk.cn">
+                    <img alt="dmd" src="https://static4.marketingdesk.cn/static/email-img.png"/>
+                </a>
+                </mj-text>
+                <mj-text>{{message}}</mj-text>
+                <mj-text mj-class="title">
+                    <a href="http://wpa.qq.com/msgrd?v=3&uin=1745542711&site=qq&menu=yes" target="_blank">如有疑问，欢迎联系QQ客服</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
